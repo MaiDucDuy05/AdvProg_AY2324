@@ -1,5 +1,4 @@
 // calculus.h
-
 #ifndef _CALCULUS_H
 #define _CALCULUS_H
 
