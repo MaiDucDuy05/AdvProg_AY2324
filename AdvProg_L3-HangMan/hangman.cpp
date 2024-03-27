@@ -16,7 +16,7 @@ using std::cin;
 ***/
 int generateRandomNumber(const int min, const int max)
 {
-    int k = min + rand()%max;
+    int k = min + rand()%(max-min+1);
     // TODO: Return a random integer number between min and max
     return k;
 }
@@ -118,7 +118,7 @@ void updateSecretWord(string& secretWord, const char ch, const string& word)
         void
 ***/
 void updateEnteredChars(const char ch, string& chars){
-    chars.push_back(ch);
+    chars+=ch;
     // TODO: append the character ch is in end of the text chars
 }
 
