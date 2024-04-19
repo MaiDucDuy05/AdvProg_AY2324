@@ -175,10 +175,6 @@ void Snake::move(Direction direction)
     }
 }
 
-// DO NOT CHANGE METHOD
-int Snake::getNumCherry(){
-    return cherry;
-}
 
 // DO NOT CHANGE METHOD
 int Snake::getNumCherry(){
